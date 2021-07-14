@@ -148,7 +148,7 @@ element.style {
 }
 
 .left-box {
-    width: 100%;
+    width: 50%;
 }
 
 .left-events {
@@ -247,6 +247,9 @@ h3 {
     .info-box {
         margin-left: 32px;
         width: 100%;
+    }
+    .left-box-desktop {
+        display: none;
     }
 }
 
@@ -362,9 +365,14 @@ video {
     .exhibit h1 {
         margin: 0 0 16px 0;
     }
+    #video-box {
+        display: block;
+        width: 100%;
+    }
     * {
         max-width: 100%;
     }
+    /*test*/
 }
 
 footer {
