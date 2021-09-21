@@ -1,203 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compitable" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link href="style.css" type="text/css" rel="./stylesheet">
-    <title>Calmor Academy</title>
+  <title>A Brief History of Programming</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="hidden.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 </head>
-
-<!--SEC 1-->
-
 <body>
-    <header>
-        <div class="logo-title">
-            <img src="capstone_colmar_assets/capstone_colmar_assets/images/ic-logo.svg" height="50px">
-            <h4 class="colmar">COLMOR</h4>
-            <h4 class="academy">ACADEMY</h4>
-        </div>
-        <!--navigation =/= nav: to external links-->
-        <nav>
-            <h2>On campus</h2>
-            <h2>Online</h2>
-            <h2>For companies</h2>
-            <h2>Sign in</h2>
-        </nav>
-    </header>
-    <header>
-        <div class="mobile">
-            <img src="/capstone_colmar_assets/capstone_colmar_assets/images/ic-logo.svg" height="50px">
-            <img src="/capstone_colmar_assets/capstone_colmar_assets/images/ic-on-campus.svg" height="50px">
-            <img src="/capstone_colmar_assets/capstone_colmar_assets/images/ic-online.svg" height="50px">
-            <img src="/capstone_colmar_assets/capstone_colmar_assets/images/ic-login.svg" height="50px">
-        </div>
-    </header>
 
+  <header>
+    <h3>A BRIEF HISTORY OF</h3>
+    <h1>PROGRAMMING</h1>
+  </header>
 
-    <main>
+  <nav>
+    <ul role="presentation">
+      <li><a href="#early">Early</a></li>
+      <li><a href="#middle">Middle</a></li>
+      <li><a href="#late">Late</a></li>
+      <li><a href="#current">Current</a></li>
+    </ul>
+  </nav>
 
-        <!--SEC 2 Banner Students-->
-        <div class='navigation'>
-            <section class="banner">
-                <img src="capstone_colmar_assets/capstone_colmar_assets/images/banner.jpg">
-                <div class="content">
-                    <h1>Learn something new everyday</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adisciping elit.</p>
-                    <a href=#>
-                        <h2 class="button">Start here</h2>
-                    </a>
+  <div id="early" class="container">
+    <span class="aside" role="note">Ada Lovelace is the favorite programmer of the author of this web page!</span>
 
-                </div>
-            </section>
-        </div>
+    <h2>Early</h2>
+    <h4>Pre-1900</h4>
+    <div class="p-container" role="presentation">
+      <p>Below is an image of Ada Lovelace, born in 1815 (<em>Died: 1852</em>). She worked with Charles Babbage and is known as the first programmer.</p>
+      <p>Below is an image of Charles Babbage, born in 1791 (<em>Died: 1871</em>). Babbage is considered the father of the computer.</p>
+    </div>
 
-        <!--SEC 3-->
-        <section class="information">
-            <div class="left-box desktop">
-                <img src="capstone_colmar_assets/capstone_colmar_assets/images/information-main.jpg">
-                <h1>It doesn't hurt to keep practicing</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, conubia blandit lectus nisi maecenas felis, tincidunt ullamcorper metus nunc posuere auctor. Libero nam laoreet sodales tortor massa molestie interdum vestibulum, quam inceptos in
-                    class fusce tellus maecenas conubia nulla, curabitur ante magna suscipit nibh cras hendrerit.
-                </p>
-                <p id="Strategist">Emanuel, Sr. Strategist at Hiring.com</p>
-            </div>
-            <div class="box">
-                <div class="info">
-                    <a href="#"></a>
-                    <img class="desktop" src="capstone_colmar_assets/capstone_colmar_assets/images/information-orientation.jpg">
-                    <img class="mobile" src="capstone_colmar_assets/capstone_colmar_assets/images/information-orientation-mobile.jpg">
-                    <div class="info-pannel">
-                        <h3>Orientation date</h3>
-                        <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
-                        <a href=#>Read more</a>
-                    </div>
-                </div>
+    <img src="
+https://content.codecademy.com/courses/freelance-1/unit-4/img-lovelace.jpg" alt="Ada Lovelace"/>
+    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-babbage.jpg" alt="Charles Babbage"/>
 
-                <div class="info">
-                    <img class="desktop" src="capstone_colmar_assets/capstone_colmar_assets/images/information-campus.jpg">
-                    <img class="mobile" src="capstone_colmar_assets/capstone_colmar_assets/images/information-campus-mobile.jpg">
-                    <div class="info-box">
-                        <h3>Our campus</h3>
-                        <p>Find wich campus is close by you</p>
-                        <a href=#>Read more</a>
-                    </div>
-                </div>
+    <div class="timeline" role="presentation">
+      <div class="date-square" role="presentation">
+        <p aria-label="Date of Lovelace photo">1840</p>
+      </div>
+      <div class="date-square" role="presentation">
+        <p aria-label="Date of Babbage photo">1850</p>
+      </div>
+    </div>
 
-                <div class="info">
-                    <img class="desktop" src="capstone_colmar_assets/capstone_colmar_assets/images/information-guest-lecture.jpg">
-                    <img class="mobile" src="capstone_colmar_assets/capstone_colmar_assets/images/information-guest-lecture-mobile.jpg">
-                    <div class="info-box">
-                        <h3>Our guest lecture</h3>
-                        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-                        <a href=#>Read more</a>
-                    </div>
-                </div>
-            </div>
-        </section>
+  </div>
 
-        <!--SEC 4 Six Cards-->
-        <div class='navigation'></div>
-        <section class="learning">
-            <h1>Start learning</h1>
-            <div class="courses ">
-                <div class="course desktop">
-                    <img src="capstone_colmar_assets/capstone_colmar_assets/images/course-software.jpg">
-                    <h3>Software Engineering</h3>
-                    <p>COURSES</p>
-                    <P id="course">Web Development, Mobile Development, iOT, APIs</P>
-                </div>
+  <div id="middle" class="container">
 
-                <div class="course desktop">
-                    <img src="capstone_colmar_assets/capstone_colmar_assets/images/course-computer-art.jpg">
-                    <h3>Computer Art</h3>
-                    <p>COURSES</p>
-                    <P id="course">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</P>
-                </div>
+    <h2>Middle</h2>
+    <h4>1900-1980</h4>
+    <div class="p-container" role="presentation">
+      <p>Below is an image of Grace Hopper, born in 1906 (<em>Died: 1992</em>). She invented the first compiler and contributed to the COBOL language.</p>
+      <p>Below is an image of Dennis Ritchie, born in 1941 (<em>Died: 2011</em>). He created the C programming language (1972) and helped develop Unix.</p>
+    </div>
 
-                <div class="course desktop">
-                    <img src="capstone_colmar_assets/capstone_colmar_assets/images/course-design.jpg">
-                    <h3>Design</h3>
-                    <p>COURSES</p>
-                    <P id="course">User Experience Design, User Research, Visual Design</P>
-                </div>
-            </div>
-            <div class="courses">
-                <div class="course desktop">
-                    <img src="capstone_colmar_assets/capstone_colmar_assets/images/course-data.jpg">
-                    <h3>Data</h3>
-                    <p>COURSES</p>
-                    <P id="course">Data Science, Big Data, SQL, Data Visualization</P>
-                </div>
+    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-hopper.jpg" alt="Grace Hopper"/>
+    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-ritchie.jpg" alt="Dennis Ritchie"/>
 
-                <div class="course desktop">
-                    <img src="capstone_colmar_assets/capstone_colmar_assets/images/course-business.jpg">
-                    <h3>Business</h3>
-                    <p>COURSES</p>
-                    <P id="course">Product Development, Business Development, Startup</P>
-                </div>
+    <div class="timeline" role="presentation">
+      <div class="date-square" role="presentation">
+        <p aria-label="Date of Hopper photo">1950</p>
+      </div>
+      <div class="date-square" role="presentation">
+        <p aria-label="Date of Ritchie photo">1978</p>
+      </div>
+    </div>
 
-                <div class="course desktop">
-                    <img src="capstone_colmar_assets/capstone_colmar_assets/images/course-marketing.jpg">
-                    <h3>Marketing</h3>
-                    <p>COURSES</p>
-                    <p id="course">Analitics, Content Marketing, Mobile Marketing</P>
-                </div>
-            </div>
-        </section>
+  </div>
 
-        <!--SEC 5-->
-        <div class='navigation'>
-            <section class="exhibit">
-                <h1>Thesis Exhibit</h1>
-                <div class="container">
-                    <div class="left-box">
-                        <video src="capstone_colmar_assets/capstone_colmar_assets/videos/thesis.mp4" controls></video>
-                        <h3 class="desktop">Reimagine Urban</h3>
-                        <p class="desktop">Lorem ipsum dolor sit amet consectetur adipiscing elit, conubia blandit lectus nisi maecenas felis, tincidunt ullamcorper metus nunc posuere auctor. Libero nam laoreet sodales tortor massa molestie interdum vestibulum, quam inceptos
-                            in class fusce tellus maecenas conubia nulla, curabitur ante magna suscipit nibh cras hendrerit.
-                        </p>
-                    </div>
-                    <div class="pannel desktop">
-                        <div class="info">
-                            <img class="desktop" src="capstone_colmar_assets/capstone_colmar_assets/images/thesis-fisma.jpg">
-                            <div class="info-box">
-                                <h3>Fisma: Design and Prototype</h3>
-                                <p>Designer showcase of new prototype product </p>
-                            </div>
+  <div id="late" class="container">
 
-                        </div>
+    <h2>Late</h2>
+    <h4>1980 - 2000</h4>
+    <div class="p-container" role="presentation">
+      <p>Below is an image of Guido Van Rossum, born in 1956. He helped to create the Python language in 1991.</p>
+      <p>Below is an image of Yukihiro Matsumoto, born in 1965. He developed Ruby, which was first available in 1995.</p>
+    </div>
 
-                        <div class="info">
-                            <div class="info-box">
-                                <img class="desktop" src="capstone_colmar_assets/capstone_colmar_assets/images/thesis-now-and-then.jpg">
-                                <h3>Now and then</h3>
-                                <p>Research study about New York</p>
-                            </div>
+    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-vanrossum.jpg" alt="Guido Van Rossum"/>
+    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-matusmoto.jpg" alt="Yukihiro Matsumoto"/>
 
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </main>
+    <div class="timeline" role="presentation">
+      <div class="date-square" role="presentation">
+        <p aria-label="Date of Van Rossum photo">1991</p>
+      </div>
+      <div class="date-square" role="presentation">
+        <p aria-label="Date of Matsumoto photo">1995</p>
+      </div>
+    </div>
 
-    <!--SEC 6-->
-    <footer>
-        <div>©2020 Carlmor Academy. All rights reserved</div>
-        <div>
-            <span>
-                    <a href="#">Terms</a>
-                </span>
-            <span>
-                    <a href="#">Privacy</a>
-                </span>
-        </div>
-    </footer>
+  </div>
+
+  <div id="current" class="container">
+
+    <h2>Current</h2>
+    <h4>2000 - Present</h4>
+    <div class="p-container" role="presentation">
+      <p>Below is an image of Robert Griesemer. He was on the Google team that developed GOLANG, which first appeared in 2009.</p>
+      <p>Below is an image of Chris Lattner, a developer at Apple. He helped to write Swift, which first appeared in 2014.</p>
+    </div>
+
+    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-griesemer.jpg" alt="Robert Griesemer"/>
+    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-lattner.jpg" alt="Chris Lattner"/>
+
+    <div class="timeline" role="presentation">
+      <div class="date-square" role="presentation">
+        <p aria-label="Date of Griesemer photo">2010</p>
+      </div>
+      <div class="date-square" role="presentation">
+        <p aria-label="Date of Lattner photo">2014</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-logo2.png" id="logo" />
+    <ul role="presentation">
+      <li>The Programming Historical Society</li>
+      <li>about@programminghs.org</li>
+    </ul>
+  </footer>
 
 </body>
-
 </html>
